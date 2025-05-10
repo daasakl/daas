@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Delete Account</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="icon">&#128465;</div>
+    <h2>Delete Account</h2>
+    <p class="warning">WARNING this is permanent and cannot be undone!</p>
+    <p class="description">
+      All of your cards will be immediately deleted.<br />
+      Any cards you have created that have been shared with others will also be deleted.
+    </p>
+    <input type="text" id="username" placeholder="Confirm username" />
+    <div class="buttons">
+      <button onclick="goBack()" class="back">Go back</button>
+      <button onclick="startDeletion()" class="delete">Start Deletion</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
